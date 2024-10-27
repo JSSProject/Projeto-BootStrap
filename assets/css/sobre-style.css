@@ -1,0 +1,16 @@
+@media (max-width: 767px){
+
+   .row-img{
+    width: 39%;
+    flex-wrap: nowrap;
+   }
+ }
+
+@media (max-width: 505px){
+
+    .row-img{
+        width: 35%;
+        
+       }
+
+}

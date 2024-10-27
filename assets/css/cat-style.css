@@ -1,0 +1,76 @@
+.img-catalago img {
+    flex: 0 0 auto;
+    max-width: 500px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+.carousel-caption{
+    right: 0;
+    text-align: right;
+}
+.row img {
+    max-width: 150px;
+  
+}
+
+
+
+
+
+@media (max-width: 992px){
+ 
+    .col-md-5 {
+        flex: 0 0 auto;
+        
+      }
+    .col-md-5 h1{
+        font-size: 1rem;
+    }
+    .img-catalago img{
+        flex: 0 0 auto;
+        width: 37.667%;
+    }
+    .carousel-caption{
+        right: 0;
+        text-align: right;
+    }
+
+}
+@media (max-width: 768px){
+   
+
+    
+    .img-catalago img {
+        flex: 0 0 auto;
+        
+      }
+
+      .carousel-caption{
+        right: 20px;
+        text-align: right;
+    }
+    
+
+}
+@media (max-width: 505px){
+ 
+    .img-catalago img {
+        flex: 0 0 auto;
+        
+      }
+
+      .carousel-caption{
+        right: 20px;
+        text-align: right;
+    }
+
+    .carousel-caption h5{
+       font-size: 18px;
+    }
+
+    .carousel-caption p{
+        font-size: 14px;
+     }
+
+}
